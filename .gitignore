@@ -1,0 +1,19 @@
+cat > .gitignore <<'EOF'
+*.pcap
+*.csv
+*.vmdk
+*.vdi
+*.ova
+*.ovf
+__pycache__/
+*.pyc
+.viminfo
+.cache/
+.local/
+.wireshark/
+mininet/
+oflops/
+oftest/
+openflow/
+pox/
+EOF
