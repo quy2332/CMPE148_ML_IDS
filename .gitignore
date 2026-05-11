@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Data files
+*.pcap
+*.csv
+
+# VM / VirtualBox
+*.vmdk
+*.vdi
+*.ova
+*.ovf
+
+# System junk
+.viminfo
+.cache/
+.local/
+
+# Mininet system folders (VERY important)
+mininet/
+oflops/
+oftest/
+openflow/
+pox/
